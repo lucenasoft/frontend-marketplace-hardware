@@ -7,7 +7,7 @@ function App() {
 
   return (
       <div className="container">
-        <h1>Hardware</h1>
+        <h1>Markeplace Hardware</h1>
         <div className="card-grid">
           {data?.map(body => <Card
           price={body.price}
